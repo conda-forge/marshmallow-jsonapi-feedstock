@@ -1,6 +1,6 @@
 {% set name = "marshmallow-jsonapi" %}
-{% set version = "0.14.0" %}
-{% set sha256 = "1ad6779f4ecbe320c51ba50516bd1f5ba1e0aa0ec7d48757146115575b177bff" %}
+{% set version = "0.16.0" %}
+{% set sha256 = "a0691dbd772bd14cb011ccb557ce0e4714ed602dae4f900c64ac579052641f79" %}
 
 package:
   name: {{ name|lower }}
