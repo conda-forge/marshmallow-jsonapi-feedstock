@@ -21,7 +21,7 @@ requirements:
     - setuptools
   run:
     - python
-    - marshmallow >=2.3.0
+    - marshmallow >=2.8.0
 
 test:
   imports:
