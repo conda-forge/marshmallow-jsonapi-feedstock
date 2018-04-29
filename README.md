@@ -15,14 +15,16 @@ marshmallow-jsonapi provides a simple way to produce JSON API-compliant data in 
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/marshmallow-jsonapi-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/marshmallow-jsonapi-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/marshmallow-jsonapi-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/marshmallow-jsonapi-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/marshmallow-jsonapi-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/marshmallow-jsonapi-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/marshmallow-jsonapi-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/marshmallow-jsonapi-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/marshmallow-jsonapi-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/marshmallow-jsonapi-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/marshmallow-jsonapi-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/marshmallow-jsonapi-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marshmallow-jsonapi/badges/version.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/marshmallow-jsonapi/badges/downloads.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-marshmallow--jsonapi-green.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/marshmallow-jsonapi.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/marshmallow-jsonapi.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/marshmallow-jsonapi.svg)](https://anaconda.org/conda-forge/marshmallow-jsonapi) |
 
 Installing marshmallow-jsonapi
 ==============================
