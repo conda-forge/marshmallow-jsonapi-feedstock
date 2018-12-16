@@ -1,6 +1,5 @@
 {% set name = "marshmallow-jsonapi" %}
 {% set version = "0.21.0" %}
-{% set sha256 = "a403f32c5a7bb8f7540fae2fbb35565cf15dddd4936b8d8d74873f55aa5f0cc2" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ sha256 }}
+  sha256: a403f32c5a7bb8f7540fae2fbb35565cf15dddd4936b8d8d74873f55aa5f0cc2
 
 build:
   noarch: python
