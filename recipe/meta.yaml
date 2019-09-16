@@ -20,7 +20,7 @@ requirements:
     - python
     - pip
   run:
-    - python
+    - python >=3.6
     - marshmallow >=2.15.2
 
 test:
