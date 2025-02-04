@@ -6,7 +6,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
   sha256: 83e33b41e8f411d34a4b515c39f10192919a9d4f7eeccd4d6b49a4030a163374
 
@@ -19,6 +18,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - marshmallow >=2.8.0
@@ -26,8 +26,11 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - marshmallow_jsonapi
+  commands:
+    - pip check
 
 about:
   home: http://github.com/marshmallow-code/{{ name }}
