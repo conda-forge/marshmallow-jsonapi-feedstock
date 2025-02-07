@@ -151,4 +151,5 @@ Feedstock Maintainers
 =====================
 
 * [@sodre](https://github.com/sodre/)
+* [@davner](https://github.com/davner/)
 
