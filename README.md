@@ -150,6 +150,6 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@sodre](https://github.com/sodre/)
 * [@davner](https://github.com/davner/)
+* [@sodre](https://github.com/sodre/)
 
