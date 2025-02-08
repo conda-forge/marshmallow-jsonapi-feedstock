@@ -33,7 +33,7 @@ test:
     - pip check
 
 about:
-  home: http://github.com/marshmallow-code/{{ name }}
+  home: http://github.com/marshmallow-code/marshmallow-jsonapi
   license: MIT
   license_family: MIT
   license_file: LICENSE
@@ -42,8 +42,8 @@ about:
   description: |
       marshmallow-jsonapi provides a simple way to produce JSON API-compliant data in any Python web framework.
 
-  doc_url: http://{{ name }}.readthedocs.io/
-  dev_url: https://github.com/marshmallow-code/{{ name }}
+  doc_url: http://marshmallow-jsonapi.readthedocs.io/
+  dev_url: https://github.com/marshmallow-code/marshmallow-jsonapi
 
 extra:
   recipe-maintainers:
